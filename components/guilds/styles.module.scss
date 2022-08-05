@@ -1,0 +1,29 @@
+.container{
+    background: #202225;
+    width: 72px;
+    height: 100vh;
+}
+
+.guilds{
+    height: 88%;
+    overflow: hidden scroll;
+    margin-bottom: 40px;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.divider{
+    height: 2px;
+    width: 32px;
+    border-radius: 1px;
+    background: #36393f;
+    padding: 0;
+}
