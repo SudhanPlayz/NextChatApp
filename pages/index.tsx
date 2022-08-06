@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Guilds from "../components/guilds"
+import Sidebar from '../components/sidebar'
 import styles from "../styles/home.module.scss"
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles.container}>
         <Guilds/>
+        <Sidebar/>
       </div>
     </div>
   )

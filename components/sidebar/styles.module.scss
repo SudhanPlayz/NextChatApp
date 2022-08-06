@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    width: 240px;
+    height: 100vh;
+    background: #2f3137;
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 240px;
+        height: 0.2px;
+        background: #212326;
+    }
+}
+
+.searchBar{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input{
+        outline: none;
+        height: 28px;
+        width: 210px;
+        line-height: 24px;
+        border-radius: 4px;
+        background: #212326;
+        border: none;
+        color: #a2a5a9;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-left: 10px;
+    }
+}

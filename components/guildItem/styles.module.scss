@@ -9,10 +9,9 @@
     color: #fff;
 
     &.active {
-        border-radius: 30%;
-
         .icon {
             background: #5865f2;
+            border-radius: 30%;
         }
 
         .pill {
@@ -87,6 +86,7 @@
     justify-content: center;
     transition: all 0.2s ease-in-out;
     word-break: keep-all;
+    pointer-events: none;
 
     &::before{
         content: "";
