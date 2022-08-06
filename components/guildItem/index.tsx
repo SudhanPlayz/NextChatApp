@@ -6,16 +6,19 @@ const GuildItem: NextComponentType<{}, {}, {
     children?: React.ReactNode,
     selected?: boolean,
     path: string,
-    svg?: boolean
+    svg?: boolean,
+    tooltip?: string
 }> = ({
     children,
     selected,
     path,
-    svg
+    svg,
+    tooltip
 }) => {
         return <Link href={path} shallow>
             <a className={styles.container + (selected ? " " + styles.active : "") + (svg?" " + styles.svg : "")}>
                 <div className={styles.icon}>
+                    {tooltip && <div className={styles.tooltip}>{tooltip}</div>}
                     <div className={styles.pill}></div>
                     {children}
                 </div>
