@@ -87,6 +87,7 @@
     transition: all 0.2s ease-in-out;
     word-break: keep-all;
     pointer-events: none;
+    z-index: 1;
 
     &::before{
         content: "";
