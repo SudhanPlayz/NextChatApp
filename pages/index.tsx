@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import DirectMessages from '../components/directMessages'
 import Guilds from "../components/guilds"
 import Sidebar from '../components/sidebar'
 import styles from "../styles/home.module.scss"
@@ -14,7 +15,9 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles.container}>
         <Guilds/>
-        <Sidebar/>
+        <Sidebar>
+          <DirectMessages/>
+        </Sidebar>
       </div>
     </div>
   )

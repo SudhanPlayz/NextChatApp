@@ -6,7 +6,7 @@
 
 .guilds{
     height: 88%;
-    overflow-y: hidden scroll;
+    overflow: hidden scroll;
     margin-bottom: 40px;
 
     &::-webkit-scrollbar {
