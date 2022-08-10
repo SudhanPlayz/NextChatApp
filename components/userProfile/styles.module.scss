@@ -22,36 +22,6 @@
     }
 }
 
-.avatar{
-    position: relative;
-
-    img{
-        border-radius: 50%;
-        width: 34px;
-        height: 34px;
-    }
-}
-
-.status{
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    bottom: 0;
-    right: 0;
-    margin: 1px;
-    border-radius: 50%;
-}
-
-.statusOnline{
-    @extend .status;
-    background: #3ba55d;
-}
-
-.statusOffline{
-    @extend .status;
-    background: #747f8d;
-}
-
 .info{
     margin-left: 8px;
     display: flex;

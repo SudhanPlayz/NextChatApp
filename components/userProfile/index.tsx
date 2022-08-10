@@ -1,14 +1,12 @@
 import type { NextComponentType } from "next"
 import React from "react"
+import Avatar from "../avatar"
 import styles from "./styles.module.scss"
 
 const UserProfile: NextComponentType = () => {
     return <div className={styles.container}>
         <div className={styles.user}>
-            <div className={styles.avatar}>
-                <img src="https://picsum.photos/200" alt="User Avatar" />
-                <div className={styles.statusOnline}></div>
-            </div>
+            <Avatar status="Online"/>
             <div className={styles.info}>
                 <div className={styles.infoName}>Sudhan</div>
                 <div className={styles.infoTag}>#4355</div>

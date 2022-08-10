@@ -9,26 +9,26 @@
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden scroll;
+    // overflow: hidden scroll;
 
-    &:hover::-webkit-scrollbar {
-        opacity: 1;
+    // &:hover::-webkit-scrollbar {
+    //     opacity: 1;
 
-    }
+    // }
 
-    &::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-        opacity: 0;
-    }
+    // &::-webkit-scrollbar {
+    //     width: 8px;
+    //     height: 8px;
+    //     opacity: 0;
+    // }
 
-    &::-webkit-scrollbar-thumb {
-        background-clip: padding-box;
-        border: 2px solid transparent;
-        border-radius: 4px;
-        background-color: #2f3136;
-        min-height: 40px;
-    }
+    // &::-webkit-scrollbar-thumb {
+    //     background-clip: padding-box;
+    //     border: 2px solid transparent;
+    //     border-radius: 4px;
+    //     background-color: #2f3136;
+    //     min-height: 40px;
+    // }
 
     h3 {
         line-height: 16px;
